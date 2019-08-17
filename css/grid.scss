@@ -1,0 +1,125 @@
+.flex--50 {
+    flex-basis: 100%;
+
+    @include bp(min, $bp-md) {
+        flex-basis: 50%;
+    }
+}
+
+.flex--100 {
+    flex-basis: 100%;
+}
+
+.grid__max {
+    @include bp(min, $bp-lg) {
+        -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+
+// span--x references to how the grid is centered on the page
+.span--12 {
+    @include bp(min, $bp-xl) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 12;
+        grid-column: 1 / -1;
+    }
+}
+.span--9 {
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 10;
+        grid-column: 2 / 12;
+    }
+}
+.span--8 {
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 8;
+        grid-column: 3 / 11;
+    }
+}
+
+.span--7 { //Not centered! For Pages with a sidebar
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 7;
+        grid-column: 3 / 10;
+    }
+}
+
+.span--6 { //Aligns to the right on desktop
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 6;
+        grid-column: 6 / -1;
+    }
+}
+
+.span--1 {
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1 / 2;
+    }
+}
+.span--1--end {
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 12 / 13;
+    }
+}
+
+//Article Sidebar
+.span--3 { //Not centered! Sidebar content.
+    @include bp(min, $bp-lg) {
+        -ms-grid-column: 10;
+        -ms-grid-column-span: 3;
+        grid-column: 10 / -1;
+    }
+}
+
+
+// grid__col--x references child elements and the number of columns they occupy
+.col--6 {
+    @include bp(min, $bp-lg) {
+        &-left {
+            grid-column: 1 / 7;
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 6;
+        }
+
+        &-right {
+            grid-column: 7 / -1;
+            -ms-grid-column: 7;
+            -ms-grid-column-span: 5;
+
+        }
+    }
+}
+
+.col--9 {
+    @include bp(min, $bp-lg) {
+        &-left {
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 9;
+            grid-column: 1 / 10;
+        }
+
+        &-right {
+            -ms-grid-column: 3;
+            -ms-grid-column-span: 9;
+            grid-column: 3 / -1;
+        }
+    }
+}
+
+//Set Row to 1
+.row--1 {
+    @include bp(min, $bp-lg) {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1;
+    }
+}
