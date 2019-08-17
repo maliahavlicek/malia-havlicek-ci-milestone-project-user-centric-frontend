@@ -5,7 +5,7 @@ course in partnership with Code Institute.
 You can check out the published version of this project <a href="https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/" target="_blank">here.</a>
 
 ## Author
-Malia Havlicek ![malia](images/malia.jpg)
+Malia Havlicek !['picture of malia.'](images/malia.jpg)
 
 ## Project Description
 This project was created in order to highlight my newly revamped skills with HTML and CSS. 
