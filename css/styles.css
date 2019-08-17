@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--secondary-darker);
+}
+.header{
+    background-image: url('/images/BlueJeanBackground.jpg');
+    background-size: contain;
+    height: 358px;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--tertiary-light);
+}
