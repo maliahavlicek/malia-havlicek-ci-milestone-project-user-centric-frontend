@@ -1,3 +1,15 @@
+.caps{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.cent-vert{
+    top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 .header{
     background-image: url('../images/BlueJeanBackground.jpg');
     background-size: cover;
@@ -14,17 +26,15 @@
     height: 100%;
     width: auto;
 }
+.hidden-small{
+    display:none;
+}
+.nav-items{
+    display:none;
+}
 .hero-text{
     font-size: 1.8rem;
     float: left;
-}
-.cent-vert{
-    top: 50%;
-    position: relative;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 .social-icon{
     display: inline-block;
@@ -48,5 +58,56 @@
     .hero-text{
         font-size:3rem;
     }
-    
+    .hidden-large{
+        display:none;
+    }
+    .hidden-small{
+        display: inherit;
+    }
+    li.active{
+        font-weight: 700;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-basis: 100%;
+    }
+    .nav-items li{
+        height: 25px;
+        display: block;
+        padding: 5px 10px;
+        color: var(--primary);
+    }  
+    .nav-items li.logo{
+        width: 25%;
+        color: var(--secondary-darker);
+    }
+    .sub-nav{
+        display:none;
+    }
+    .sub-nav-trigger:hover .sub-nav{
+        display: block;
+        position: absolute;
+        top: 37px;
+        right: 25px;
+        width: 200px;
+        z-index: 10;
+        background: var(--white);
+        border: 1px solid var(--gray-medium);
+        box-shadow: 2px 2px 5px grey;
+    }
+    .sub-nav-trigger:hover .sub-nav li:hover, .nav-items li.link:hover{
+         background: var(--gray-medium);
+    }
+    .nav-items li.link a:hover, .sub-nav li a:hover{
+        font-weight: 600;
+    }
+    .sub-nav-trigger:hover .sub-nav li{
+        height: 25px;
+        display: block;
+        padding: 5px 10px;
+    }
+
 }

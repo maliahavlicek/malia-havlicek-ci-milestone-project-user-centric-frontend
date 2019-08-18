@@ -16,8 +16,19 @@ footer a {
     border-bottom: 0;
     font-weight: 600;
 }
-
-
+nav{
+    background: var(--white);
+    padding: 5px;
+    color: var(--black);
+}
+nav a, nav li.sub-nav-trigger {
+    color: var(--primary);
+    font-weight: 600;
+}
+nav a:hover{
+    text-decoration: none;
+    font-weight: 700;
+}
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
     text-transform: none;
