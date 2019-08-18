@@ -7,7 +7,7 @@
     color: var(--tertiary-light);
 }
 .hero-image{
-    margin: 10px;
+    margin: 0px;
     height:100px;
 }
 .hero-image img{
