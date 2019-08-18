@@ -27,7 +27,7 @@ Since I have worled with Bootstrap in the past, I decided I should really learn 
 to make a light weight grid solution so I can better understand grid and flexbox. I broke my CSS down into 3 files:
 
 - <strong>colors.css: </strong> Color theory is not me. I know I end up swapping colors often so I decided it would be best to define these in one spot and have the CSS refer to them. I'm hoping this will save me a lot of refactoring. I got the idea from https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd. I used https://coolors.co/ to help find complementary colors.
-- <strong>grid.css: </strong> I need responsive CSS and I like the grid stuff so I'm trying a minimal setup, focusing on naming the classes in a logical manner and using media queries when needed to define breakpoints between desktop and small devices.
+- <strong>grid.css: </strong> I need responsive CSS and I like the grid stuff so I'm trying a minimal setup, focusing on naming the classes in a logical manner and using media queries when needed to define breakpoints between desktop and small devices. I looked at https://codepen.io/taniarascia/pen/rOLEGe/ and 
 - <strong>styles.css: </strong> Houses my css for the pages, more like your traditional css file.
 
 ### Browser Testing

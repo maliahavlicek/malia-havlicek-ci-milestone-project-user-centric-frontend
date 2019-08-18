@@ -1,87 +1,41 @@
 /* Define breakpoints where grid alignment should be adjusted */
-:root{
-    --bp-xs: 480px;
-    --bp-sm: 600px;
-    --bp-md: 768px; 
-    --bp-lg: 1024px;
-    --bp-xl: 1224px;
-    --bp-xxl: 1440px;
-    --bp-xxxl: 1680px;
+/* basis of flex comes from  https://codepen.io/taniarascia/pen/rOLEGe/ */
+
+.alwaysFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.alwaysFlex .column{
+    flex: 1;
 }
 
-/*Default CSS is small devices first */
-.flex--50 {
-    flex-basis: 100%;
-}
-.flex--100 {
-    flex-basis: 100%;
+.column {
+  flex-basis: 100%;
+    margin: .1em;
+    padding: .3em;
 }
 
-/* medium device overrides */
-@media (min-width: var(--bp-md)) {
-    .flex--50{
-        flex-basis: 50%;
-    }
+/* I'm only having one breakpoint. Phones (768 and smaller will treat columns as rows, 
+larger devices will auto adjust their widths.
+*/
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+  }
+  .column_25 {
+    flex: 2.5;
+  }
+  .colum_50 {
+    flex: 5;
+  }
+  .column_75{
+    flex: 7.5;
+  }
 }
-
-/* large device overrides */
-@media (min-width: var(--bp-lg)) {
-    .grid__max {
-        -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: repeat(12, 1fr);
-    }
-    .span--9 {
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 10;
-        grid-column: 2 / 12;
-    }
-    .span--8 {
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 8;
-        grid-column: 3 / 11;
-    }
-    
-    .span--7 { 
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 7;
-        grid-column: 3 / 10;
-    }
-    .span--6 { 
-        -ms-grid-column: 6;
-        -ms-grid-column-span: 6;
-        grid-column: 6 / -1;
-    }
-    .span--1 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 1;
-        grid-column: 1 / 2;
-    }
-    .span--1--end {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 1;
-        grid-column: 12 / 13;
-    }
-    .span--3 { 
-        -ms-grid-column: 10;
-        -ms-grid-column-span: 3;
-        grid-column: 10 / -1;
-    }
-    .row--1 {
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 1;
-        grid-row: 1;
-    }
-}
-
-
-/* extra large device overrides */
-// span--x references to how the grid is centered on the page
-@media (min-width: var(--bp-xl)) {
-
-    .span--12 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 12;
-        grid-column: 1 / -1;
-    }
-}
-

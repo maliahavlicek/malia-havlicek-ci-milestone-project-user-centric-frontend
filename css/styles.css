@@ -1,129 +1,48 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: var(--secondary-darker);
-}
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-    display: block;
-}
 .header{
-    background-image: url('images/BlueJeanBackground.jpg');
-    background-size: contain;
-    height: 358px;
+    background-image: url('../images/BlueJeanBackground.jpg');
+    background-size: cover;
     width: 100%;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--tertiary-light);
 }
-
-footer {
-    background: var(--gray-light);
-    padding: 4rem;
+.hero-image{
+    margin: 10px;
+    height:100px;
 }
-footer a {
-    color: var(--blac)k;
-    border-bottom: 0;
+.hero-image img{
+    height: 100%;
+    width: auto;
 }
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2em;
-    text-transform: none;
+.hero-text{
+    font-size: 1.8rem;
+    float: left;
 }
-
-h1 {
-    font-size: 3.6rem;
-    text-transform: initial;
-    line-height: 1.2em;
-    color: var(--primary);
-}
-
-h2 {
-    font-size: 3.2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.cent-vert{
+    top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-h3 {
-    font-size: 2.8rem;
-}
-
-h4 {
-    font-size: 2rem;
-}
-
-h5 {
-    font-size: 1.5rem;
-}
-
-h6 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    line-height: 1.375em;
-    text-transform: uppercase;
-}
-
-p {
-    font-size: 1.6rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
-
-a {
-    color: var(--primary);
-    font-size: 1.6rem;
-    text-decoration: none;
-}
-
-//List Items
-ol li, ul li {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-}
-
-ul {
-    li {
-        list-style-type: disc;
+/* start of larger phones overrides */
+@media screen and (min-width: 400px){
+    .hero-image{
+        margin: 15px;
+        height:150px;
     }
 }
 
-ol {
-    display: block;
-}
-ol li {
-    counter-increment: count;
-    list-style-type: none;
-    margin-left: 3rem;
-    position: relative;
-}
-
-ol li:before, ol li:after {
-    position: absolute;
-}
-
-ol li:after {
-    content: counter(count);
-    color: var(--white);
-    font-weight: 700;
-    font-size: 1.4rem;
-    left: -2.4rem;
-    line-height: 1.2em;
-    top: 2px;
-}
-
-ol li:before {
-    content: "";
-    background-color: var(--tertiary);
-    border-radius: 50%;
-    left: -3rem;
-    padding: 1rem;
-    z-index: -1;
+/* start of tablet and bigger overrides */
+@media screen and (min-width: 768px) {
+    .hero-image{
+        margin: 20px;
+        height:250px;
+    }
+    .hero-text{
+        font-size:3rem;
+    }
+    
 }
