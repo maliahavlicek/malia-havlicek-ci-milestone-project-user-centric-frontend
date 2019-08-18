@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Malia Havlicek Milestone Project Fontend Centric</title>
     <link rel="stylesheet" href="css/colors.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i,800&display=swap">
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 <body>
-    <header class="header">
-        <img src="images/malia.jpg" alt="Picture of Malia Havlicek." />
-        <p>Malia Havlicek</p>
-    </header>
-    <h1>This is your page.</h1>
+    <div class="nav-wrap">
+        
+    </div>
+    <div class="body-wrap" role="main">
     
+        <!-- Header Section -->
+        <div class="main--top">
+          <div class="grid grid--internal">
+            <header class="header grid__max">
+                <div class="span--3">
+                    <img src="images/malia.jpg" alt="Picture of Malia Havlicek." />
+                </div>
+                <div class="span--9">Malia Havlicek</div>
+                
+            </header>
+          </div>
+        </div>
+
+        <!-- Page Content Section -->
+        <div class="body__main" role="main">
+            main body
+        </div>
+
+    </div> <!-- ./ body-wrap -->
+    
+    <footer>
+        <div class="grid__max">
+            <div class="span--12">
+                footer
+            </div>
+        </div>  
+    </footer>
+
 </body>
 </html>
