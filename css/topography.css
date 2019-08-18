@@ -8,12 +8,16 @@ body{
 
 footer {
     background: var(--gray-light);
-    padding: 4rem;
+    padding: 5px;
+    color: var(--gray-dark);
 }
 footer a {
-    color: var(--blac)k;
+    color: var(--primary);
     border-bottom: 0;
+    font-weight: 600;
 }
+
+
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
     text-transform: none;
@@ -53,20 +57,17 @@ h6 {
 }
 
 p {
-    font-size: 1.6rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
 a {
     color: var(--primary);
-    font-size: 1.6rem;
     text-decoration: none;
 }
 
 //List Items
 ol li, ul li {
-    font-size: 1.6rem;
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-top: 1rem;

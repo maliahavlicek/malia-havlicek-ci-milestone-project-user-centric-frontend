@@ -26,6 +26,10 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+.social-icon{
+    display: inline-block;
+    margin: 2px 5px 0 0;
+}
 
 /* start of larger phones overrides */
 @media screen and (min-width: 400px){
