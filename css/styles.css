@@ -1,3 +1,6 @@
+.body-wrapper{
+    background: var(--white);
+}
 .caps{
     text-transform: capitalize;
     font-size: 1.2rem;
@@ -175,8 +178,9 @@ a.menu-closer:hover, a.menu-closer:focus{
     font-size: 1.8rem;
 }
 .section-item{
-    margin: 15px 5px;
+    margin: 15px 15px;
 }
+
 .small-nav{
     height:40px;
 }
@@ -256,4 +260,14 @@ a.menu-closer:hover, a.menu-closer:focus{
         padding: 5px 10px;
     }
 
+}
+@media screen and (min-width: 1024px) {
+    section p {
+        margin: 0 15px;
+    }
+    
+    .column.column_50.bk-color-tert-lt {
+        border: 1px solid var(--gray-medium);
+        margin: 0 10px;
+    }
 }
