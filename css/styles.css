@@ -10,6 +10,14 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+.ed-header{
+    text-transform: uppercase;
+    font-weight:700;   
+}
+.ed-grad{
+    text-transform: capitalize;
+    font-style: italic;
+}
 h1.logo{
     font-size: 1.8rem;
     color: var(--secondary-darker);
@@ -166,6 +174,9 @@ a.menu-closer:hover, a.menu-closer:focus{
 .hero-text{
     font-size: 1.8rem;
 }
+.section-item{
+    margin: 15px 0;
+}
 .small-nav{
     height:40px;
 }
@@ -188,7 +199,7 @@ a.menu-closer:hover, a.menu-closer:focus{
 @media screen and (min-width: 768px) {
     .hero-image{
         margin: 20px;
-        height:250px;
+        height:150px;
     }
     .hero-text{
         font-size:3rem;
