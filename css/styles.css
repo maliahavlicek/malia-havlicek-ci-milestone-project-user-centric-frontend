@@ -10,6 +10,11 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+h1.logo{
+    font-size: 1.8rem;
+    color: var(--secondary-darker);
+    display: inline-block;
+}
 .header{
     background-image: url('../images/BlueJeanBackground.jpg');
     background-size: cover;
@@ -20,7 +25,7 @@
 }
 .hero-image{
     margin: 0px;
-    height:100px;
+    height:75px;
 }
 .hero-image img{
     height: 100%;
@@ -29,24 +34,154 @@
 .hidden-small{
     display:none;
 }
+
+.menu-closer{
+    background-image: url('../images/icons/close-menu.png');
+    background-size:cover;
+}
+.menu-opener{
+    background-image: url('../images/icons/menu.png');
+    background-size:cover;
+}
+.menu-toggle {
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #333;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #c00;
+}
+
+/*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+.main-menu {
+    position: absolute;
+    display: none;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    transition:display 1s ease;
+    z-index: 999;
+    
+    border: 5px solid var(--gray-medium);
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    min-height: 100%;
+    width: 200px;
+    background: var(--gray);
+    color: var(--black);
+}
+
+.main-menu a {
+  display: block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.main-menu li:first-child a {
+  border-top: 1px solid #383838;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background: var(--gray-medium);
+}
+a.menu-closer:hover, a.menu-closer:focus{
+    background-image: url(../images/icons/close-menu.png);
+    background-size: cover;
+    outline: solid 1px var(--secondary-darker);
+    padding: 16px;
+}
+.main-menu li.active{
+    display: none;
+}
+.main-menu .menu-close {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 100%;
+  outline: none;
+  margin-left: -220px;
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop{
+  position: absolute;
+  display: block;  
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.7);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop{
+    position: fixed;
+  }
+}
+
 .nav-items{
     display:none;
 }
 .hero-text{
     font-size: 1.8rem;
-    float: left;
+}
+.small-nav{
+    height:40px;
 }
 .social-icon{
     display: inline-block;
     margin: 2px 5px 0 0;
 }
-
-/* start of larger phones overrides */
-@media screen and (min-width: 400px){
-    .hero-image{
-        margin: 15px;
-        height:150px;
-    }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 /* start of tablet and bigger overrides */

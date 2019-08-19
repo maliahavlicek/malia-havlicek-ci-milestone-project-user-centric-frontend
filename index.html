@@ -13,38 +13,75 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 <body>
-    
-    <nav role="navigation" aria-label="header-navigation">
-        
-        <ul class="nav-items caps">
-            <li class="logo">Software Developer:</li>
-            <li class="active">About Me</li>
-            <li class="link"><a href="experience.html">Experience</a></li>
-            <li class="link"><a href="skills.html">Skills</a></li>
-            <li class="sub-nav-trigger">
-                <span class="hidden-small">More</span>
-                <ul class="sub-nav">
+    <header>
+        <!-- small devices navigation -->
+        <div class="hidden-large">
+            <div class="small-nav">
+                <h1 class="logo">Software Developer:</h1>
+                <a href="#main-menu"
+                    id="main-menu-toggle"
+                    class="menu-toggle menu-opener"
+                    aria-label="Open main menu">
+                    <span class="sr-only">Open main menu</span>
+                </a>
+            </div>
+            <nav id="main-menu" class="main-menu" aria-label="Main menu">
+                <a href="#main-menu-toggle"
+                    id="main-menu-close"
+                    class="menu-close menu-closer"
+                    aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                </a>
+                <ul>
+                    <li class="active">About Me</li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
                     <li><a href="recommendations.html">Recommendations</a></li>
                     <li><a href="code-examples.html">Code Examples</a></li>
                     <li><a href="programming-fun.html">Agile Mayhem</a></li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-    <!-- Header Section -->
-    <header class="header" >
-        <div class="alwaysFlex">
-            <div class="column column_25">
-                <div class="hero-image">
-                    <img src="images/malia.jpg" alt="Picture of Malia Havlicek." />
-                </div>
-            </div>
-            <div class="column column_75">
-                <div class ="hero-text cent-vert">
-                    Malia Havlicek
-                </div>
-            </div>
+            </nav>
+            <a href="#main-menu-toggle"
+                class="backdrop"
+                tabindex="-1"
+                aria-hidden="true" hidden>
+            </a>
         </div>
+        
+        <!-- Navigation Section Desktop -->
+        <div class="hidden-small">
+            <nav role="navigation" aria-label="Main menu.">
+                <ul class="nav-items caps">
+                    <li class="logo">Software Developer:</li>
+                    <li class="active">About Me</li>
+                    <li class="link"><a href="experience.html">Experience</a></li>
+                    <li class="link"><a href="skills.html">Skills</a></li>
+                    <li class="sub-nav-trigger">
+                        <span class="hidden-small">More</span>
+                        <ul class="sub-nav">
+                            <li><a href="recommendations.html">Recommendations</a></li>
+                            <li><a href="code-examples.html">Code Examples</a></li>
+                            <li><a href="programming-fun.html">Agile Mayhem</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            
+        <!-- Header Section -->
+        <div class="header" >
+            <div class="alwaysFlex">
+                <div class="column column_25">
+                    <div class="hero-image">
+                        <img src="images/malia.jpg" alt="Picture of Malia Havlicek." />
+                    </div>
+                </div>
+                <div class="column column_75">
+                    <div class ="hero-text cent-vert">
+                        Malia Havlicek
+                    </div>
+                </div>
+            </div>
         
     </header>
     <div class="body-wrap" role="main">

@@ -30,6 +30,9 @@ to make a light weight grid solution so I can better understand grid and flexbox
 - <strong>grid.css: </strong> I need responsive CSS and I like the grid stuff so I'm trying a minimal setup, focusing on naming the classes in a logical manner and using media queries when needed to define breakpoints between desktop and small devices. I looked at https://codepen.io/taniarascia/pen/rOLEGe/ and 
 - <strong>styles.css: </strong> Houses my css for the pages, more like your traditional css file.
 
+## Navigation for small devices
+The small devices navigation was derived from [Mark Caron's post](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793)
+
 ### Browser Testing
 For device testing, I would ideally have access to browser stack and use sites from [David Smith's site](https://david-smith.org/iosversionstats/) to determine a list of what devices and iOS versions to test with. Likewise, 
 I'd also use stats from [android](https://developer.android.com/about/dashboards) to handpick android devices.  Then I'd test top browsers on PC's and Macs. Since I don't have a handful of devices or a proper testing tool,

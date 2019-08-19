@@ -10,7 +10,15 @@
 .alwaysFlex .column{
     flex: 1;
 }
-
+.alwaysFlex .column_25 {
+    flex: 2.5;
+}
+.alwaysFlex .colum_50 {
+    flex: 5;
+}
+.alwaysFlex .column_75{
+    flex: 7.5;
+}
 .column {
   flex-basis: 100%;
     margin: .1em;
