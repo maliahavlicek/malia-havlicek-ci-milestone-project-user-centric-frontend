@@ -10,7 +10,7 @@ body{
 
 footer {
     background: var(--gray-light);
-    padding: 5px;
+    padding: 5px 10px;
     color: var(--gray-dark);
 }
 footer .row{
@@ -21,9 +21,9 @@ footer a {
     border-bottom: 0;
     font-weight: 600;
 }
+
 nav{
-    background: var(--white);
-    padding: 5px;
+    background: var(--gray-light);
     color: var(--black);
 }
 nav a, nav li.sub-nav-trigger {
@@ -88,54 +88,15 @@ a {
     text-decoration: none;
 }
 
-//List Items
+
 ol li, ul li {
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+   margin: 13px 0;
 }
 
-ul {
-    li {
-        list-style-type: disc;
-    }
-}
 
-ol {
-    display: block;
-}
-ol li {
-    counter-increment: count;
-    list-style-type: none;
-    margin-left: 3rem;
-    position: relative;
-}
-
-ol li:before, ol li:after {
-    position: absolute;
-}
-
-ol li:after {
-    content: counter(count);
-    color: var(--white);
-    font-weight: 700;
-    font-size: 1.4rem;
-    left: -2.4rem;
-    line-height: 1.2em;
-    top: 2px;
-}
-
-ol li:before {
-    content: "";
-    background-color: var(--tertiary);
-    border-radius: 50%;
-    left: -3rem;
-    padding: 1rem;
-    z-index: -1;
-}
 section{
     padding: 0;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     background: var(--white);
 }
 
@@ -176,4 +137,5 @@ section{
         margin: 0 auto;
         background: var(--blue-light);
     }
+    
 }

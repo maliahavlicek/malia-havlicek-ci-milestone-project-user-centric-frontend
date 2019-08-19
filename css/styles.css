@@ -35,7 +35,7 @@ h1.logo{
     color: var(--tertiary-light);
 }
 .hero-image{
-    margin: 0px;
+    margin: 5px 10px;
     height:75px;
 }
 .hero-image img{
@@ -63,7 +63,7 @@ h1.logo{
     width: 20px;
     display: block;
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 15px;
 }
 
@@ -97,7 +97,9 @@ h1.logo{
     background: var(--gray);
     color: var(--black);
 }
-
+.main-menu li{
+     list-style-type: none;
+}
 .main-menu a {
   display: block;
   padding: .75em 15px;
@@ -183,6 +185,9 @@ a.menu-closer:hover, a.menu-closer:focus{
 
 .small-nav{
     height:40px;
+    background: var(--gray-light);
+    padding: 5px;
+    color: var(--black);
 }
 .social-icon{
     display: inline-block;
@@ -227,7 +232,7 @@ a.menu-closer:hover, a.menu-closer:focus{
     .nav-items li{
         height: 25px;
         display: block;
-        padding: 5px 10px;
+        padding: 0px 10px;
         color: var(--primary);
     }  
     .nav-items li.logo{
@@ -240,8 +245,8 @@ a.menu-closer:hover, a.menu-closer:focus{
     .sub-nav-trigger:hover .sub-nav{
         display: block;
         position: absolute;
-        top: 37px;
-        right: 25px;
+        top: 30px;
+        right: 40px;
         width: 200px;
         z-index: 10;
         background: var(--white);
@@ -269,5 +274,12 @@ a.menu-closer:hover, a.menu-closer:focus{
     .column.column_50.bk-color-tert-lt {
         border: 1px solid var(--gray-medium);
         margin: 0 10px;
+    }
+    
+    .sub-nav-trigger:hover .sub-nav  {
+        position: relative;
+        top: -15px;
+        right: 0;
+        margin-left:-180px;
     }
 }
