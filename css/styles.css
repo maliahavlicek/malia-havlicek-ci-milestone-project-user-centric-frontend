@@ -175,7 +175,7 @@ a.menu-closer:hover, a.menu-closer:focus{
     font-size: 1.8rem;
 }
 .section-item{
-    margin: 15px 0;
+    margin: 15px 5px;
 }
 .small-nav{
     height:40px;

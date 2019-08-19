@@ -13,7 +13,7 @@
 .alwaysFlex .column_25 {
     flex: 2.5;
 }
-.alwaysFlex .colum_50 {
+.alwaysFlex .column_50 {
     flex: 5;
 }
 .alwaysFlex .column_75{
@@ -22,9 +22,11 @@
 .column {
   flex-basis: 100%;
     margin: .1em 0;
-    padding: .3em 0;
+    padding: 0;
 }
-
+.row{
+    margin-bottom: 10px;
+}
 /* I'm only having one breakpoint. Phones (768 and smaller will treat columns as rows, 
 larger devices will auto adjust their widths.
 */
@@ -36,12 +38,13 @@ larger devices will auto adjust their widths.
   }
   .column {
     flex: 1;
-    padding: .3em;
+    padding: 0;
+    margin: .1em 0;
   }
   .column_25 {
     flex: 2.5;
   }
-  .colum_50 {
+  .column_50 {
     flex: 5;
   }
   .column_75{
@@ -52,5 +55,13 @@ larger devices will auto adjust their widths.
   }
   .column_40{
     flex: 4;
+  }
+  .col_first{
+    padding-left: 0;
+    margin-right: 5px;
+  }
+  .col_last{
+    padding-right: 0;
+    margin-left:5px;
   }
 }
