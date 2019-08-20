@@ -59,7 +59,18 @@
 .color-gray-drk {
     color: var(--gray-dark);
 }
-
+.color-gray-med {
+    color: var(--gray-medium);
+}
+.bk-color-gray-med{
+    background: var(--gray-medium);
+}
+.bk-color-gray-drk{
+    background: var(--gray-dark);
+}
 .bk-color-tert-lt {
     background: var(--tertiary-light);
+}
+.bk-color-primary{
+    background: var(--primary);
 }
