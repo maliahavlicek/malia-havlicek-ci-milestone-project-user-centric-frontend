@@ -1,5 +1,6 @@
 /* this file store generic CSS for the html tags */
-body{
+
+body {
     font-family: 'Open Sans', arial;
     font-size: 16px;
     font-weight: normal;
@@ -13,28 +14,39 @@ footer {
     padding: 5px 10px;
     color: var(--gray-dark);
 }
-footer .row{
+
+footer .row {
     margin-bottom: 0;
 }
+
 footer a {
     color: var(--primary);
     border-bottom: 0;
     font-weight: 600;
 }
 
-nav{
+nav {
     background: var(--gray-light);
     color: var(--black);
 }
-nav a, nav li.sub-nav-trigger {
+
+nav a,
+nav li.sub-nav-trigger {
     color: var(--primary);
     font-weight: 600;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: none;
     font-weight: 700;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.2em;
     text-transform: none;
 }
@@ -89,12 +101,13 @@ a {
 }
 
 
-ol li, ul li {
-   margin: 13px 0;
+ol li,
+ul li {
+    margin: 13px 0;
 }
 
 
-section{
+section {
     padding: 0;
     margin: 0 0 10px 0;
     background: var(--white);
@@ -102,40 +115,40 @@ section{
 
 
 @media screen and (min-width: 768px) {
-    
+
     h1 {
         font-size: 3.6rem;
     }
-    
+
     h2 {
         font-size: 3.2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    
+
     h3 {
         font-size: 2.8rem;
     }
-    
+
     h4 {
         font-size: 2rem;
     }
-    
+
     h5 {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-    
+
     h6 {
         font-size: 1.1rem;
         line-height: 1.375em;
     }
-    
+
 }
 
-@media screen and (min-width: 1024px){
-    body{
+@media screen and (min-width: 1024px) {
+    body {
         margin: 0 auto;
         background: var(--blue-light);
     }
-    
+
 }
