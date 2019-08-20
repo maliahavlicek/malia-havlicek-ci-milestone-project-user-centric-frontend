@@ -1,5 +1,9 @@
 /* this file store generic CSS for the html tags */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', arial;
     font-size: 16px;

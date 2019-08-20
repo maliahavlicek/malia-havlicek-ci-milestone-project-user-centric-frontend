@@ -3,35 +3,35 @@
      https://coolors.co/2f4f46-72c8ea-633f8c-defaf3-7aa095
 */
 
-
 :root {
     /*Primary Color is Deep Purple */
     --primary: #633F8C;
     --primary-dark: #2d1d40;
     --primary-light: #a996c0;
-    
+
     /* Secondary Color is Sky Blue */
     --secondary: #72C8EA;
     --secondary-dark: #498095;
     --secondary-darker: #0775a0;
     --secondary-light: #a5dcf1;
-    
+
     /* Tertiary Color is Sage Green*/
-    --tertiary: #7AA095; 
+    --tertiary: #7AA095;
     --tertiary-dark: #1D4B48;
     --tertiary-light: #DEFAF3;
-    
+
     --gray-light: #EBEDEE;
     --gray-medium: #D8D8D8;
     --gray-dark: #2F2F2F;
-    
+
     --blue-light: #EFFBFF;
-    
+
     --white: #fff;
     --black: #000;
 }
 
 /*Text Color Classes */
+
 .color-prim {
     color: var(--primary);
 }
@@ -59,6 +59,7 @@
 .color-gray-drk {
     color: var(--gray-dark);
 }
-.bk-color-tert-lt{
+
+.bk-color-tert-lt {
     background: var(--tertiary-light);
 }

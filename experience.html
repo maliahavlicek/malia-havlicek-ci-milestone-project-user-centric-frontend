@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +12,21 @@
     <link rel="stylesheet" href="css/topography.css" type="text/css" />
     <link rel="stylesheet" href="css/grid.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/animation.css" type="text/css" />
 </head>
+
 <body>
     <header>
         <!-- small devices navigation -->
         <div class="hidden-large">
             <div class="small-nav">
                 <h1 class="logo">Software Developer:</h1>
-                <a href="#main-menu"
-                    id="main-menu-toggle"
-                    class="menu-toggle menu-opener"
-                    aria-label="Open main menu">
+                <a href="#main-menu" id="main-menu-toggle" class="menu-toggle menu-opener" aria-label="Open main menu">
                     <span class="sr-only">Open main menu</span>
                 </a>
             </div>
             <nav id="main-menu" class="main-menu" aria-label="Main menu">
-                <a href="#main-menu-toggle"
-                    id="main-menu-close"
-                    class="menu-close menu-closer"
-                    aria-label="Close main menu">
+                <a href="#main-menu-toggle" id="main-menu-close" class="menu-close menu-closer" aria-label="Close main menu">
                     <span class="sr-only">Close main menu</span>
                 </a>
                 <ul>
@@ -41,13 +38,10 @@
                     <li><a href="programming-fun.html">Agile Mayhem</a></li>
                 </ul>
             </nav>
-            <a href="#main-menu-toggle"
-                class="backdrop"
-                tabindex="-1"
-                aria-hidden="true" hidden>
+            <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden>
             </a>
         </div>
-        
+
         <!-- Navigation Section Desktop -->
         <div class="hidden-small">
             <nav role="navigation" aria-label="Main menu.">
@@ -67,9 +61,9 @@
                 </ul>
             </nav>
         </div>
-            
+
         <!-- Header Section -->
-        <div class="header" >
+        <div class="header">
             <div class="alwaysFlex">
                 <div class="column column_25">
                     <div class="hero-image">
@@ -77,35 +71,106 @@
                     </div>
                 </div>
                 <div class="column column_75">
-                    <div class ="hero-text cent-vert">
-                       Experience
+                    <div class="hero-text cent-vert">
+                        Experience
                     </div>
                 </div>
             </div>
-        
     </header>
     <div class="body-wrap" role="main">
-    
-        
-
         <!-- Page Content Section -->
         <div class="body__main" role="main">
-            main body
+            <section class="hidden-large">
+                <div class="section-item">
+                    <h4>Positions Held:</h4>
+                    <ul>
+                        <ol>
+                            <li><a href="#fool">Foolish Developer</a>&mdash; Feb. 2019 - Present</li>
+                            <li><a href="#agile">Best in Class Agile</a>&mdash; May 2014 - Feb. 2019</li>
+                            <li><a href="#lead">Lead UI Developer</a>&mdash; Nov. 2005 -May 2014</li>
+                            <li><a href="#ivr">Voice Response Developer</a>&mdash; Sept. 1999 - Nov. 2005</li>
+                            <li><a href="#geek">Modeling Geek</a>&mdash; May 1997 -Sept. 1999</li>
+
+                        </ol>
+                    </ul>
+                </div>
+            </section>
+            <section class="experience">
+                <div class="row">
+                    <div class="column">
+                        <h5 id="fool">Foolish Developer</h5>
+                        <div class="section-item">
+                            <div class="text-italic text-bold color-gray-drk">Feburary 2019 - Present</div>
+                            <div>
+                                In Febuary of 2019 I joined the ranks of Foolish Devlopers with The Motley Fool. I quickly picked up how to deploy a local environment using PyCharm's IDE and began blindly dabbling in Django templating. After 3 months I started deploying several templates
+                                to highlight various financial products based on Wagtail Administrator's picks. I have also writen several filters to automate content updates to reflect product name changes and dates much like Word Press short codes.
+                                I love that I'm learning new things, proving myself in unknown technologies and expanding my horizons.
+                            </div>
+                        </div>
+                        <h5 id="agile">BEST IN CLASS AGILE TEAM MEMBER</h5>
+                        <div class="section-item">
+                            <div class="text-italic text-bold color-gray-drk">May 2014 - Feburary 2019</div>
+                            <div>
+                                In 2014 I was hand picked to be part of CenturyLink’s pilot agile team. Over the past four years I implemented redesigns to make online ordering flows responsive utilizing bootstrap. I helped transition a series of pages from jQuery to AngularJS. I am
+                                the subject matter expert for implementing Adobe Analytics and Live Engage third party includes to CenturyLink’s residential ordering flows. I helped establish reliable JavaScript and CSS optimization across a distributed
+                                website with distinct development, test and production areas where files might be in a different state per environment despite a shared content code base via Shell scripts and cron jobs. While I strongly dislike the quirks
+                                IE, I take the time verify that my solutions look up to snuff in that browser along with Chrome and Firefox. I also dabbled in web accessibility verification and automated testing as part of this team.
+                            </div>
+                        </div>
+                        <h5 id="lead">LEAD USER INTERFACE DEVELOPER</h5>
+                        <div class="section-item">
+                            <div class="italic text-bold color-gray-drk">November 2005 - May 2014</div>
+                            <div>
+                                I began my journey into website development with an internal transfer in late 2005. I first worked with a Stellent content based management system where I learned how build custom objects so our business partners could update promotional content on the
+                                fly without code releases or interactions with developers. I started with old school table HTML, learning on the fly. Through the years I helped setup a home grown content system using Dimensions and Apache Velocity to
+                                render dynamic content for online internet and phone ordering. I forced the business to move on from button imagery and to rely upon CSS3 as an effort to reduce page sizes and maintence cost for branding overhauls post
+                                mergers. I also lead the effort to update our websites to HTML5 and oversaw the first mobile redesign for a set of static internet help pages. I lead several offshore based fast change teams over this 9 year period.
+                            </div>
+                        </div>
+                        <h5 id="ivr">INTERACTIVE VOICE RESPONSE DEVELOPER</h5>
+                        <div class="section-item">
+                            <div class="italic text-bold color-gray-drk">September 1999- November 2005</div>
+                            <div>
+                                My journey with CenturyLink really started with USWest, I survived the Qwest Communications and CenturyLink mergers as well as many acquisitions. I was part of a REFIT program where the objective was to Retrain Engineers For Information Technologies.
+                                I went through formal coding, database, and networking classes offered at Arapaho Community College and the University of Denver while working 3 days a week with a development team. I was put into the Interactive Voice
+                                Response (IVR) team where I programmed various touch tone queues. I quickly mastered that system and became a lead developer within 6 years despite several hiring and promotional freezes. I was part of the team that transitioned
+                                the IVR’s from touch tone to speech recognition. While on the IVR team, I worked on the company’s first #Net application to support the speech recognition platform. One of my crowning achievements on the IVR team was implementing
+                                a real time outage message recording routine such that relevant messaging to customers experiencing service outages could be injected on the fly without a code release. I also gained a ton of experience mentoring offshore
+                                co-workers and lead an internal phrase transcribing application development.
+                            </div>
+                        </div>
+                        <h5 id="geek">GROUNDWATER MODELING GEEK</h5>
+                        <div class="section-item">
+                            <div class="italic text-bold color-gray-drk">May 1997 - September 1999</div>
+                            <div>
+                                Once upon a time, I did actually work in the field I spent so many years studying in college. As a ground water modeler, the coolest project I did was to build a user interface to automate reports for various client groups. The reports included statistical
+                                data scrubbing, customized linear charts, aerial plots of average concentrations of chemicals, and beautifully formatted excel tables using Visual Basic, IDL and SQL queries. This involved integrating with autocad drawings
+                                and setting up user permissions by projects. I was intimate with Microsoft Access relational databases as I had to design them to store groundwater and contamination levels as well as physical properties of soils based
+                                on geographical locations for various client groups and remediation/containment sites. I spent the majority of my time calibrating and developing groundwater models for environmental remediation sites utilizing a variety
+                                of 2D and 3D software applications including SWANFLOW, MODFLOW, and MODPATH3. So yeah, I’m a geek at heart.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
         </div>
 
-    </div> <!-- ./ body-wrap -->
-    
+    </div>
+    <!-- ./ body-wrap -->
+
     <footer>
         <div class="row">
-            <div class="column">Email: <a href="mailto:malia.havlicek@gmail.com?Subject=Hello" target="_top">malia.havlicek@gmail.com</a></div>
+            <div class="column col_first">Email: <a href="mailto:malia.havlicek@gmail.com?Subject=Hello" target="_top">malia.havlicek@gmail.com</a></div>
             <div class="column">Mobile: <a href="tel:+1-720-238-1708">720-238-1708</a></div>
-            <div class="column">
-               <a class="social-icon" href="https://www.linkedin.com/in/malia-havlicek-1550406" target="_blank"><img src="images/icons/linkedIn.png" alt="Lined In Profile."/></a>
-               <a class="social-icon" href="https://codepen.io/maliahavlicek" target="_blank"><img src="images/icons/codepen.png" alt="Code pen Profile."/></a>
-               <a class="social-icon" href="https://github.com/maliahavlicek" target="_blank"><img src="images/icons/github.png" alt="git hub profile."/></a>
+            <div class="column col_last">
+                <a class="social-icon" href="https://www.linkedin.com/in/malia-havlicek-1550406" target="_blank"><img src="images/icons/linkedIn.png" alt="Lined In Profile."/></a>
+                <a class="social-icon" href="https://codepen.io/maliahavlicek" target="_blank"><img src="images/icons/codepen.png" alt="Code pen Profile."/></a>
+                <a class="social-icon" href="https://github.com/maliahavlicek" target="_blank"><img src="images/icons/github.png" alt="git hub profile."/></a>
             </div>
         </div>
     </footer>
-
+    </div>
 </body>
+
 </html>

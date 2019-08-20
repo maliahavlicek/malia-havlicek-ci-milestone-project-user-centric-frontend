@@ -16,13 +16,23 @@
     transform: translateY(-50%);
 }
 
-.ed-header {
+.experience .column {
+    margin-top: 0;
+}
+
+.text-upper {
     text-transform: uppercase;
+}
+
+.text-bold {
     font-weight: 700;
 }
 
-.ed-grad {
+.text-cap {
     text-transform: capitalize;
+}
+
+.text-italic {
     font-style: italic;
 }
 
