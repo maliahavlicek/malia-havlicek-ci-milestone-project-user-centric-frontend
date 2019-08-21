@@ -37,7 +37,7 @@
 }
 
 h1.logo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--secondary-darker);
     display: inline-block;
 }
@@ -59,6 +59,10 @@ h1.logo {
 .hero-image img {
     height: 100%;
     width: auto;
+}
+
+.hero-text {
+    font-size: 1.3rem;
 }
 
 .hidden-small {
@@ -206,10 +210,6 @@ a.menu-closer:focus {
     display: none;
 }
 
-.hero-text {
-    font-size: 1.8rem;
-}
-
 .section-item {
     margin: 15px 15px;
 }
@@ -217,22 +217,24 @@ a.menu-closer:focus {
 .column div.section-item:last-of-type {
     padding-bottom: 15px;
 }
-.quote-block{
-    margin: 20px 0;
+
+.quote-block {
+    margin: 35px 0 45px 0;
     text-align: center;
     position: relative;
     padding: 0;
     border: 3px solid var(--tertiary-dark);
     display: block;
 }
-.quote-author{
+
+.quote-author {
     line-height: 1.8rem;
     color: var(--white);
-    font-size: 1.4rem;
-    left: 25px;
+    font-size: 1.3rem;
+    left: 20px;
     top: 3px;
     text-align: center;
-    max-width: 70%;
+    max-width: 85%;
     width: auto;
     margin: -20px 0;
     position: absolute;
@@ -243,23 +245,26 @@ a.menu-closer:focus {
     text-transform: uppercase;
     display: inline-block;
 }
-.quote-rev{
+
+.quote-rev {
     margin: 0;
     text-align: left;
     font-size: 1.4rem;
     padding: 20px;
     background: var(--gray-light);
     color: var(--tertiary-dark);
-            
+
 }
-.quote-date{
+
+.quote-date {
     text-transform: capitalize;
     font-style: italic;
     color: var(--white);
     font-size: 1rem;
-    background:var(--secondary-darker);
+    background: var(--secondary-darker);
 }
-.quote-role{
+
+.quote-role {
     line-height: 1.8rem;
     color: var(--white);
     font-size: 1rem;
@@ -276,6 +281,7 @@ a.menu-closer:focus {
     font-size-adjust: italic;
     display: inline-block;
 }
+
 .small-nav {
     height: 40px;
     background: var(--gray-light);
@@ -299,7 +305,29 @@ a.menu-closer:focus {
     border: 0;
 }
 
+.recommendations .column_50 {
+    flex-basis: 100%;
+    margin: .1em 0;
+    padding: 0;
+}
+
+.recommendations .row {
+    display: block;
+}
+
 /* start of tablet and bigger overrides */
+
+@media screen and (min-width: 400px) {
+    h1.logo {
+        font-size: 1.5rem;
+    }
+    .hero-text {
+        font-size: 1.8rem;
+    }
+    .quote-author {
+        font-size: 1.4rem;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .hero-image {
@@ -313,7 +341,10 @@ a.menu-closer:focus {
         display: none;
     }
     .hidden-small {
-        display: inherit;
+        display: block;
+    }
+    .hidden-small.quote-date {
+        display: inline-block;
     }
     li.active {
         font-weight: 700;
@@ -364,10 +395,35 @@ a.menu-closer:focus {
         padding: 5px 10px;
     }
 
+
+}
+
+@media screen and (min-width: 992px) {
+    section.recommendations {
+        margin: 0 15px 10px;
+    }
+    .recommendations .row div.column_50:first-child:not(:only-child) {
+        margin-right: 10px;
+    }
+    .recommendations .row div.column_50:nth-child(even) {
+        margin-left: 10px;
+    }
+
+    .recommendations .column_50 {
+        flex: 5;
+        padding: 0;
+        margin: .1em 0;
+
+    }
+    .recommendations .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    .body-wrapper{
+    .body-wrapper {
         border: 1px solid var(--gray-dark);
     }
     section p {
