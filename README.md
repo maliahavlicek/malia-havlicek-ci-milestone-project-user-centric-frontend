@@ -95,8 +95,10 @@ on my most recent job search in 2018 and hosted through name.com. Recommendation
 throughout my career.
 
 ### Media
-- The photos used in this site were obtained as follows:
-
+The photos used in this site were obtained as follows:
+- background image saved as BlueJeanBackground  - https://all-free-download.com/free-photos/download/nostalgic-blue-background-06-hd-pictures_169782.html
+- graphics on skills page were created from googlesheets by Malia Havlicek.
+- Picture of Malia Havlicek, taken by Malia Havlicek.
 
 ### Acknowledgements
 - I end up swapping colors often so I decided it would be best to define these in one spot and have the CSS refer to them. I got the idea from [css variables](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd). This feature is in  my reset.css file.

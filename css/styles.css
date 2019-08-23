@@ -282,6 +282,19 @@ a.menu-closer:focus {
     display: inline-block;
 }
 
+.skills-header {
+    font-size: 1.5rem;
+    color: var(--primary);
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    font-weight: 700;
+}
+
+.skills.section-items ul {
+    margin: 10px 15px 20px;
+}
+
 .small-nav {
     height: 40px;
     background: var(--gray-light);
@@ -323,6 +336,9 @@ a.social-icon {
 
 @media screen and (min-width: 400px) {
     h1.logo {
+        font-size: 1.5rem;
+    }
+    .skills-header {
         font-size: 1.5rem;
     }
     .hero-text {
@@ -369,6 +385,12 @@ a.social-icon {
     .nav-items li.logo {
         width: 25%;
         color: var(--secondary-darker);
+    }
+    .skills-header {
+        margin-left: 10px;
+    }
+    .skills.section-items ul {
+        margin-top: 25px;
     }
     .sub-nav {
         display: none;
