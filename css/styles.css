@@ -251,8 +251,8 @@ a.menu-closer:focus {
     text-align: left;
     font-size: 1.4rem;
     padding: 20px;
-    background: var(--gray-light);
-    color: var(--tertiary-dark);
+    background: var(--tertiary-light);
+    color: var(--gray-dark);
 
 }
 
@@ -287,6 +287,10 @@ a.menu-closer:focus {
     background: var(--gray-light);
     padding: 5px;
     color: var(--black);
+}
+
+a.social-icon {
+    padding: 0 10px;
 }
 
 .social-icon {
@@ -431,7 +435,7 @@ a.menu-closer:focus {
     }
 
     .column.column_50.bk-color-tert-lt {
-        border: 1px solid var(--gray-medium);
+        border: 2px solid var(--gray-dark);
         margin: 0 10px;
     }
 

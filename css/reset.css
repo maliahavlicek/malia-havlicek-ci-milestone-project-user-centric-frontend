@@ -135,19 +135,24 @@ div {
 .color-gray-drk {
     color: var(--gray-dark);
 }
+
 .color-gray-med {
     color: var(--gray-medium);
 }
-.bk-color-gray-med{
+
+.bk-color-gray-med {
     background: var(--gray-medium);
 }
-.bk-color-gray-drk{
+
+.bk-color-gray-drk {
     background: var(--gray-dark);
 }
+
 .bk-color-tert-lt {
     background: var(--tertiary-light);
 }
-.bk-color-primary{
+
+.bk-color-primary {
     background: var(--primary);
 }
 
@@ -161,7 +166,7 @@ body {
     font-family: 'Open Sans', arial;
     font-size: 16px;
     font-weight: normal;
-    color: var(--secondary-darker);
+    color: var(--gray-dark);
     max-width: 1024px;
     margin: 10px;
 }
@@ -249,7 +254,6 @@ h6 {
 
 p {
     padding-top: 1rem;
-    color: var(--secondary-darker);
 }
 
 a {
@@ -309,41 +313,42 @@ section {
     }
 
 }
+
 /* Define breakpoints where grid alignment should be adjusted */
 
 /* basis of flex comes from  https://codepen.io/taniarascia/pen/rOLEGe/ */
 
 .alwaysFlex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .alwaysFlex .column {
-  flex: 1;
+    flex: 1;
 }
 
 .alwaysFlex .column_25 {
-  flex: 2.5;
+    flex: 2.5;
 }
 
 .alwaysFlex .column_50 {
-  flex: 5;
+    flex: 5;
 }
 
 .alwaysFlex .column_75 {
-  flex: 7.5;
+    flex: 7.5;
 }
 
 .column {
-  flex-basis: 100%;
-  margin: .1em 0;
-  padding: 0;
+    flex-basis: 100%;
+    margin: .1em 0;
+    padding: 0;
 }
 
 .row {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* I'm only having one breakpoint fo the grid. Phones (768 and smaller will treat columns as rows, 
@@ -351,37 +356,37 @@ larger devices will auto adjust their widths.
 */
 
 @media screen and (min-width: 768px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .column {
-    flex: 1;
-    padding: 0;
-    margin: .1em 0;
-  }
-  .column_25 {
-    flex: 2.5;
-  }
-  .column_50 {
-    flex: 5;
-  }
-  .column_75 {
-    flex: 7.5;
-  }
-  .column_60 {
-    flex: 6;
-  }
-  .column_40 {
-    flex: 4;
-  }
-  .col_first {
-    padding-left: 0;
-    margin-right: 5px;
-  }
-  .col_last {
-    padding-right: 0;
-    margin-left: 5px;
-  }
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .column {
+        flex: 1;
+        padding: 0;
+        margin: .1em 0;
+    }
+    .column_25 {
+        flex: 2.5;
+    }
+    .column_50 {
+        flex: 5;
+    }
+    .column_75 {
+        flex: 7.5;
+    }
+    .column_60 {
+        flex: 6;
+    }
+    .column_40 {
+        flex: 4;
+    }
+    .col_first {
+        padding-left: 0;
+        margin-right: 5px;
+    }
+    .col_last {
+        padding-right: 0;
+        margin-left: 5px;
+    }
 }
