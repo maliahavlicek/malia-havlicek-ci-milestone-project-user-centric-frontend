@@ -281,7 +281,24 @@ a.menu-closer:focus {
     font-size-adjust: italic;
     display: inline-block;
 }
-
+.skills-current-focus{
+    background-image: url(../images/skills/current-focus.svg);
+   background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+}
+.skills-current{
+        background-image: url(../images/skills/current-skills.svg);
+   background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+}
+.skills-past{
+        background-image: url(../images/skills/past-skills.svg);
+   background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+}
 .small-nav {
     height: 40px;
     background: var(--gray-light);
