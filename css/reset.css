@@ -70,3 +70,318 @@ div {
     margin: 0;
     padding: 0;
 }
+
+
+/*
+     Colors picked using 
+     https://coolors.co/2f4f46-72c8ea-633f8c-defaf3-7aa095
+     Defining them here so I don't have to update many places if I 
+     change one.
+*/
+
+:root {
+    /*Primary Color is Deep Purple */
+    --primary: #633F8C;
+    --primary-dark: #2d1d40;
+    --primary-light: #a996c0;
+
+    /* Secondary Color is Sky Blue */
+    --secondary: #72C8EA;
+    --secondary-dark: #498095;
+    --secondary-darker: #0775a0;
+    --secondary-light: #a5dcf1;
+
+    /* Tertiary Color is Sage Green*/
+    --tertiary: #7AA095;
+    --tertiary-dark: #1D4B48;
+    --tertiary-light: #DEFAF3;
+
+    --gray-light: #EBEDEE;
+    --gray-medium: #D8D8D8;
+    --gray-dark: #2F2F2F;
+
+    --blue-light: #EFFBFF;
+
+    --white: #fff;
+    --black: #000;
+}
+
+/*Text Color Classes */
+
+.color-prim {
+    color: var(--primary);
+}
+
+.color-sec {
+    color: var(--secondary);
+}
+
+.color-sec-drkr {
+    color: var(--secondary-darker);
+}
+
+.color-ter {
+    color: var(--tertiary);
+}
+
+.color--white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-gray-drk {
+    color: var(--gray-dark);
+}
+.color-gray-med {
+    color: var(--gray-medium);
+}
+.bk-color-gray-med{
+    background: var(--gray-medium);
+}
+.bk-color-gray-drk{
+    background: var(--gray-dark);
+}
+.bk-color-tert-lt {
+    background: var(--tertiary-light);
+}
+.bk-color-primary{
+    background: var(--primary);
+}
+
+/* this file store generic CSS for the html tags */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', arial;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--secondary-darker);
+    max-width: 1024px;
+    margin: 10px;
+}
+
+footer {
+    background: var(--gray-light);
+    padding: 5px 10px;
+    color: var(--gray-dark);
+}
+
+footer .row {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: var(--primary);
+    border-bottom: 0;
+    font-weight: 600;
+}
+
+nav {
+    background: var(--gray-light);
+    color: var(--black);
+}
+
+nav a,
+nav li.sub-nav-trigger {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+h1 {
+    font-size: 2.8rem;
+    text-transform: initial;
+    line-height: 1.2em;
+    color: var(--primary);
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    width: 100%;
+    background: var(--secondary-darker);
+    text-align: center;
+    padding: 5px 0px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.375em;
+    text-transform: uppercase;
+}
+
+p {
+    padding-top: 1rem;
+    color: var(--secondary-darker);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+
+ol li,
+ul li {
+    margin: 13px 0;
+}
+
+
+section {
+    padding: 0;
+    margin: 0 0 10px 0;
+    background: var(--white);
+}
+
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+        line-height: 1.375em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        background: var(--blue-light);
+    }
+
+}
+/* Define breakpoints where grid alignment should be adjusted */
+
+/* basis of flex comes from  https://codepen.io/taniarascia/pen/rOLEGe/ */
+
+.alwaysFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.alwaysFlex .column {
+  flex: 1;
+}
+
+.alwaysFlex .column_25 {
+  flex: 2.5;
+}
+
+.alwaysFlex .column_50 {
+  flex: 5;
+}
+
+.alwaysFlex .column_75 {
+  flex: 7.5;
+}
+
+.column {
+  flex-basis: 100%;
+  margin: .1em 0;
+  padding: 0;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+/* I'm only having one breakpoint fo the grid. Phones (768 and smaller will treat columns as rows, 
+larger devices will auto adjust their widths.
+*/
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+    padding: 0;
+    margin: .1em 0;
+  }
+  .column_25 {
+    flex: 2.5;
+  }
+  .column_50 {
+    flex: 5;
+  }
+  .column_75 {
+    flex: 7.5;
+  }
+  .column_60 {
+    flex: 6;
+  }
+  .column_40 {
+    flex: 4;
+  }
+  .col_first {
+    padding-left: 0;
+    margin-right: 5px;
+  }
+  .col_last {
+    padding-right: 0;
+    margin-left: 5px;
+  }
+}

@@ -52,7 +52,7 @@ as well as code pen.
 - <strong>Photo Gallery:</strong> Provide a photo gallery with work snapshots to show that candidate works hard and has fun doing it.
 
 ## Technologies Used
-- [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance.
+- [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance. 
 - [HTML](https://www.w3schools.com/html/default.asp) The project uses **HTML** to define DOM elements.
 - [colors.co](https://coolors.co/) I used a colors.co's color pallet tool to help pick complementary colors.
 
@@ -99,7 +99,6 @@ throughout my career.
 
 
 ### Acknowledgements
-- I end up swapping colors often so I decided it would be best to define these in one spot and have the CSS refer to them. I got the idea from [css variables](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd)
-- Small devices navigation was derived from [Mark Caron's post](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793)
-- Grid based CSS was inspired from: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/)
-- 
+- I end up swapping colors often so I decided it would be best to define these in one spot and have the CSS refer to them. I got the idea from [css variables](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd). This feature is in  my reset.css file.
+- Small devices navigation was derived from [Mark Caron's post](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793). You can find the navigation styles in my styles.css file.
+- Grid based CSS was inspired from: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/). You can find the grid defined in my styles.css file.
