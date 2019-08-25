@@ -1,3 +1,7 @@
+/* This file holds the CSS for my pages. Color Variables, Resets, basic topography and grid styles are done in reset.css.
+Small devices CSS is defined first, larger device overrides are done lower in the file to keep with mobile first development/design strategy
+*/
+
 .body-wrapper {
     background: var(--white);
 }
@@ -281,7 +285,9 @@ a.menu-closer:focus {
     font-size-adjust: italic;
     display: inline-block;
 }
-
+.skills img{
+    width: 100%;
+}
 .skills-header {
     font-size: 1.5rem;
     color: var(--primary);
@@ -332,7 +338,7 @@ a.social-icon {
     display: block;
 }
 
-/* start of tablet and bigger overrides */
+/* overrides for landscape phones*/
 
 @media screen and (min-width: 400px) {
     h1.logo {
@@ -348,6 +354,8 @@ a.social-icon {
         font-size: 1.4rem;
     }
 }
+
+/* overrides for tablets */
 
 @media screen and (min-width: 768px) {
     .hero-image {
@@ -424,6 +432,8 @@ a.social-icon {
 
 }
 
+/* overrides for laptops */
+
 @media screen and (min-width: 992px) {
     section.recommendations {
         margin: 0 15px 10px;
@@ -447,6 +457,8 @@ a.social-icon {
         flex-wrap: nowrap;
     }
 }
+
+/* overrides for desktops */
 
 @media screen and (min-width: 1024px) {
     .body-wrapper {

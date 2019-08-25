@@ -60,7 +60,7 @@ as well as code pen.
 
 ### Validation Testing
 Used the following validators to test the code:
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color varaibles were ignored.
 - [HTML Validator](https://validator.w3.org/)
 
 ### Cross Browser and Cross Device Testing
@@ -96,11 +96,12 @@ throughout my career.
 
 ### Media
 The photos used in this site were obtained as follows:
-- background image saved as BlueJeanBackground  - https://all-free-download.com/free-photos/download/nostalgic-blue-background-06-hd-pictures_169782.html
+- background image saved as BlueJeanBackground  - https://wallpapersafari.com/w/V2nSAh
 - graphics on skills page were created from googlesheets by Malia Havlicek.
 - Picture of Malia Havlicek, taken by Malia Havlicek.
 
 ### Acknowledgements
-- I end up swapping colors often so I decided it would be best to define these in one spot and have the CSS refer to them. I got the idea from [css variables](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd). This feature is in  my reset.css file.
+- Color variables idea from [Daniel's post](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd). This feature is in  my reset.css file.
 - Small devices navigation was derived from [Mark Caron's post](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793). You can find the navigation styles in my styles.css file.
 - Grid based CSS was inspired from: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/). You can find the grid defined in my styles.css file.
+- CSS reset/breakdown was inpsired from :[Elad Shechter's post]( https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)

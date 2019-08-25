@@ -1,17 +1,15 @@
 /* this file holds the CSS to normalize or reset browser defaults on the elements that I have on my site */
 
-/* idea from Elad Shechter @ https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e */
-
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
     color: inherit;
     cursor: pointer;
     font-size: inherit;
+    text-decoration: none;
 }
 
 a:hover {
@@ -20,10 +18,10 @@ a:hover {
 
 button {
     background-color: transparent;
-    color: inherit;
     border-width: 0;
-    padding: 0;
+    color: inherit;
     cursor: pointer;
+    padding: 0;
 }
 
 figure {
@@ -32,18 +30,16 @@ figure {
 
 input::-moz-focus-inner {
     border: 0;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 ul,
 ol,
 dd {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
-    padding-inline-start: 0 margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 h1,
@@ -52,17 +48,13 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
     font-size: inherit;
     font-weight: inherit;
+    margin: 0;
 }
 
 p {
     margin: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 section,
@@ -88,7 +80,7 @@ div {
     /* Secondary Color is Sky Blue */
     --secondary: #72C8EA;
     --secondary-dark: #498095;
-    --secondary-darker: #0775a0;
+    --secondary-darker: #076B92;
     --secondary-light: #a5dcf1;
 
     /* Tertiary Color is Sage Green*/
@@ -156,25 +148,25 @@ div {
     background: var(--primary);
 }
 
-/* this file store generic CSS for the html tags */
+/* this file store generic CSS for the html tags, Topography so to say ..*/
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    color: var(--gray-dark);
     font-family: 'Open Sans', arial;
     font-size: 16px;
     font-weight: normal;
-    color: var(--gray-dark);
-    max-width: 1024px;
     margin: 10px;
+    max-width: 1024px;
 }
 
 footer {
     background: var(--gray-light);
-    padding: 5px 10px;
     color: var(--gray-dark);
+    padding: 5px 10px;
 }
 
 footer .row {
@@ -199,8 +191,8 @@ nav li.sub-nav-trigger {
 }
 
 nav a:hover {
-    text-decoration: none;
     font-weight: 700;
+    text-decoration: none;
 }
 
 h1,
@@ -214,16 +206,16 @@ h6 {
 }
 
 h1 {
-    font-size: 2.8rem;
-    text-transform: initial;
-    line-height: 1.2em;
     color: var(--primary);
+    font-size: 2.8rem;
+    line-height: 1.2em;
+    text-transform: initial;
 }
 
 h2 {
     font-size: 2.6rem;
-    margin-top: 12rem;
     margin-bottom: 1rem;
+    margin-top: 12rem;
 }
 
 h3 {
@@ -235,13 +227,13 @@ h4 {
 }
 
 h5 {
-    font-size: 1.2rem;
-    width: 100%;
     background: var(--secondary-darker);
-    text-align: center;
-    padding: 5px 0px;
     color: var(--white);
+    font-size: 1.2rem;
+    padding: 5px 0px;
+    text-align: center;
     text-transform: uppercase;
+    width: 100%;
 }
 
 h6 {
@@ -269,9 +261,9 @@ ul li {
 
 
 section {
+    background: var(--white);
     padding: 0;
     margin: 0 0 10px 0;
-    background: var(--white);
 }
 
 
@@ -283,8 +275,8 @@ section {
 
     h2 {
         font-size: 3.2rem;
-        margin-top: 2rem;
         margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     h3 {
@@ -308,15 +300,14 @@ section {
 
 @media screen and (min-width: 1024px) {
     body {
-        margin: 0 auto;
         background: var(--blue-light);
+        margin: 0 auto;
     }
 
 }
 
-/* Define breakpoints where grid alignment should be adjusted */
 
-/* basis of flex comes from  https://codepen.io/taniarascia/pen/rOLEGe/ */
+/* The CSS below is the responsive bit. It's basded on the flex concept I found at https://codepen.io/taniarascia/pen/rOLEGe/ */
 
 .alwaysFlex {
     display: flex;
@@ -363,8 +354,8 @@ larger devices will auto adjust their widths.
     }
     .column {
         flex: 1;
-        padding: 0;
         margin: .1em 0;
+        padding: 0;
     }
     .column_25 {
         flex: 2.5;
@@ -382,11 +373,11 @@ larger devices will auto adjust their widths.
         flex: 4;
     }
     .col_first {
-        padding-left: 0;
         margin-right: 5px;
+        padding-left: 0;
     }
     .col_last {
-        padding-right: 0;
         margin-left: 5px;
+        padding-right: 0;
     }
 }
