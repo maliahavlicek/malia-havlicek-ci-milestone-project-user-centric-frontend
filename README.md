@@ -13,12 +13,14 @@ Malia Havlicek
 To best highlight a software developer's competence, a personalized portfolio website provides information similar to a standard resume with the
 added bonus of being built with the skill set the candidate wishes to demonstrate experience in. It should present nicely on phones and laptops.
 
+### Mockups
 The first stage of the portfolio website was determining a design and what information to present. The following sketches were drawn:
 - [About Me](https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/images/Mockups/Mockup-AboutMe.jpg)  - landing page with mission statement, education and awards
 - [Experience](https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/images/Mockups/Mockup-Experience.jpg)  - provide work history summary
 - [Skills](https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/images/Mockups/Mockup-Skills.jpg)  - graphs and lists highlighting skills, aptitude, and depth of knowledge
-- [Navigation](https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/images/Mockups/Mockup-More.jpg)  - layout of navigation
+- [Navigation](https://maliahavlicek.github.io/malia-havlicek-ci-milestone-project-user-centric-frontend/images/Mockups/MockUp-More.jpg)  - layout of navigation
 
+### User Stories
 From the design stage, the following user stories were created:
 - <strong>Mission Statement: </strong>As a recruiter, I want to know my candidate's mission statement so I can determine if the candidate is a good fit culturally for the company I'm recruiting for.
 - <strong>Education Summary: </strong>As a candidate, I want my future employers to know that I am dedicated to pursuing knowledge so they know I am not picking up coding as an ad hoc career.
@@ -100,8 +102,7 @@ terminal.
 ## Credits
 
 ### Content
-The content for this website was derived from www.maliahavlicek.com which came from a googlesites page I put together 
-on my most recent job search in 2018 and hosted through name.com. Recommendations came from past emails, direct messages and rewards received
+The content for this website was derived from my peronsal resume and graphics I created on googlesheets. Recommendations came from past emails, direct messages and rewards received
 throughout my career.
 
 ### Media
@@ -109,6 +110,7 @@ The photos used in this site were obtained as follows:
 - background image saved as BlueJeanBackground  - https://wallpapersafari.com/w/V2nSAh
 - graphics on skills page were created from googlesheets by Malia Havlicek.
 - Picture of Malia Havlicek, taken by Malia Havlicek.
+- Social media icons were found using [iconfinder](https://www.iconfinder.com/social-media-icons?price=free).
 
 ### Acknowledgements
 - Color variables idea from [Daniel's post](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd). This feature is in  my reset.css file.
