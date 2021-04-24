@@ -1,0 +1,78 @@
+
+/* ANIMATIONS AT END so they are Easier to Manage */
+
+.main-menu a,
+.nav-items li,
+.nav-items li a {
+    -webkit-transition: background .2s ease-in-out, font-weight .2s ease-in-out;
+    /* Safari prior 6.1 */
+    transition: background .2s ease-in-out, font-weight .2s ease-in-out;
+}
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-name: slide-down;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .7s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: slide-down;
+    animation-duration: .7s;
+}
+
+.main-menu ul,
+.main-menu ul li {
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-name: appear;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .7s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: appear;
+    animation-duration: .7s;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes slide-down {
+    from {
+        height: 0
+    }
+    to {
+        height: 100%
+    }
+}
+
+/* Standard syntax */
+
+@keyframes slide-down {
+    from {
+        height: 0
+    }
+    to {
+        height: 100%
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes appear {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* Standard syntax */
+
+@keyframes appear {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
