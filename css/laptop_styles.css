@@ -1,0 +1,23 @@
+
+/* overrides for desktops */
+
+@media screen and (min-width: 1024px) {
+    .body-wrapper {
+        border: 1px solid var(--gray-dark);
+    }
+    section p {
+        margin: 0 15px;
+    }
+
+    .column.column_50.bk-color-tert-lt {
+        border: 2px solid var(--gray-dark);
+        margin: 0 10px;
+    }
+
+    .sub-nav-trigger:hover .sub-nav {
+        position: relative;
+        top: -15px;
+        right: 0;
+        margin-left: -180px;
+    }
+}
