@@ -98,6 +98,9 @@ to the GitHub repository.
 - To run locally, you can clone this repository into the IDE of your choice by pasting <strong git clone https://github.com/maliahavlicek/malia-havlicek-ci-milestone-project-user-centric-frontend.git</strong into your
 terminal.
 
+** gitpod **
+1. In terminal run `python3 -m http.server`
+2. click Open Browser
 
 ## Credits
 
