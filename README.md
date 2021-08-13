@@ -44,6 +44,7 @@ This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recom
 
 1. <strong>Recommendations: </strong>The recommendations page highlights past co-workers praise from all sorts of roles. This section highlights the candidate's ability to present information highlighting their CSS proficiency. 
 ![image](https://user-images.githubusercontent.com/23039742/129381764-d6d5f0ed-219f-4120-a1d4-2a7155272b1a.png)
+
 **note** full page screenshot has a bit of a quirk so sometimes there are white gaps that are truely not on the page.
 
 1. <strong>Header: </strong>The header provides navigation links and a graphic header to represent what page the user is currently on. It is responsive and has a different presentation for small devices to ensure that important information is displayed above the page fold on small devices as well as desktops.
@@ -54,6 +55,7 @@ This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recom
 
 - mobile 
 > ![image](https://user-images.githubusercontent.com/23039742/129381928-9a9c318e-16c0-4399-bd09-97a01004a8c4.png)
+
 - desktop 
 > ![image](https://user-images.githubusercontent.com/23039742/129382084-605ba9f1-1f59-422b-a851-7af863ad609e.png)
   
