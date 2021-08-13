@@ -37,20 +37,29 @@ This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recom
 ![image](https://user-images.githubusercontent.com/23039742/129377856-e553e2cb-7e6e-4fc4-bead-5d2c124ce910.png)
 
 1. <strong>Experience: </strong> This page provides a work history of the candidate as a list of positions. Each section summarizes a position held by the candidate along with the duration and a description of what the candidate did while in that role.
+![image](https://user-images.githubusercontent.com/23039742/129381530-05912ef3-4528-4893-861c-23865eb5fe67.png)
 
 1. <strong>Skills: </strong>The skills page provides insightful graphical interpretations of the candidate's skill set. It has four sections: Current Job Focus, Front End Skills, Skills Most Recently Used and Past Experience. The unique representation of skills in this manner shows the progression of skills overtime as technology changes.
+![image](https://user-images.githubusercontent.com/23039742/129381604-ef059c6f-97ce-4353-833b-cbb922b0d51f.png)
 
 1. <strong>Recommendations: </strong>The recommendations page highlights past co-workers praise from all sorts of roles. This section highlights the candidate's ability to present information highlighting their CSS proficiency. 
+![image](https://user-images.githubusercontent.com/23039742/129381764-d6d5f0ed-219f-4120-a1d4-2a7155272b1a.png)
+**note** full page screenshot has a bit of a quirk so sometimes there are white gaps that are truely not on the page.
 
 1. <strong>Header: </strong>The header provides navigation links and a graphic header to represent what page the user is currently on. It is responsive and has a different presentation for small devices to ensure that important information is displayed above the page fold on small devices as well as desktops.
 ![image](https://user-images.githubusercontent.com/23039742/129381323-60aa01fd-f573-41c9-8814-150c34c871d2.png)
 
 
-3. <strong>Footer: </strong>The footer provides consistent quick links to the candidate's email, phone and social media accounts so that recruiters do not have to navigate to contact her.
+1. <strong>Footer: </strong>The footer provides consistent quick links to the candidate's email, phone and social media accounts so that recruiters do not have to navigate to contact her.
+
+- mobile 
+> ![image](https://user-images.githubusercontent.com/23039742/129381928-9a9c318e-16c0-4399-bd09-97a01004a8c4.png)
+- desktop 
+> ![image](https://user-images.githubusercontent.com/23039742/129382084-605ba9f1-1f59-422b-a851-7af863ad609e.png)
+  
 
 ### Features Left to Implement
-- <strong>Code Examples Page:</strong> Rather than a link to github, update to an individual page that includes a picture of past sites developed and links to them as
-as well as code pen.
+- <strong>Code Examples Page:</strong> Rather than a link to github, update to an individual page that includes a picture of past sites developed and links to them a well as well as code pen.
 - <strong>Photo Gallery:</strong> Provide a photo gallery with work snapshots to show that candidate works hard and has fun doing it.
 
 ## Technologies Used
@@ -69,6 +78,7 @@ Used the following validation websites to test the code:
 For device testing, I would ideally have access to browser stack and derive a list of iOs devices and versions to test with from 
 [David Smith's site](https://david-smith.org/iosversionstats/). Likewise, I would make use of stats from [android](https://developer.android.com/about/dashboards) 
 to handpick android devices and versions to test with.  Then I'd test top browsers on PC's and Macs using the statistics from [w3Counter](https://www.w3counter.com/globalstats.php). 
+
 Since I don't have a handful of devices or a proper testing tool suite at my fingertips, I'm going to rely on Chrome Dev tools and my windows PC.  
 
 Below are the scenarios I picked to test my website:
@@ -105,8 +115,7 @@ terminal.
 ## Credits
 
 ### Content
-The content for this website was derived from my peronsal resume and graphics I created on googlesheets. Recommendations came from past emails, direct messages and rewards received
-throughout my career.
+The content for this website was derived from my peronsal resume and graphics I created on googlesheets. Recommendations came from past emails, direct messages and rewards received throughout my career.
 
 ### Media
 The photos used in this site were obtained as follows:
