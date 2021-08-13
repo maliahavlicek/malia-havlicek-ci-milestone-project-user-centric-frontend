@@ -33,17 +33,13 @@ From the design stage, the following user stories were created:
 
 
 ## Features
-This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recommendations and a header and footer. The pages will be rendered such that they look and function well
-on mobile phones, tablets and laptops.
-1. <strong>About Me: </strong>This is a landing page for the portfolio. It provides a first glimpse at a candidate. The mission statement provides a look at the candidate's
-personality and what they hope to provide to a future employer. There is an education summary section which links to the education institution's website and documents the degree 
-obtained and graduation date. The awards and recognition section provides a quick list highlighting past employer recognition.
-1. <strong>Experience: </strong> This page provides a work history of the candidate as a list of positions. Each section summarizes a position held by the candidate along with the duration
-and a description of what the candidate did while in that role.
-1. <strong>Skills: </strong>The skills page provides insightful graphical interpretations of the candidate's skill set. It has four sections: Current Job Focus, Front End Skills,
-Skills Most Recently Used and Past Experience. The unique representation of skills in this manner shows the progression of skills overtime as technology changes.
-1. <strong>Recommendations: </strong>The recommendations page highlights past co-workers praise from all sorts of roles. This section highlights the candidate's ability to present
-information highlighting their CSS proficiency. 
+This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recommendations and a header and footer. The pages will be rendered such that they look and function well on mobile phones, tablets and laptops.
+1. <strong>About Me: </strong>This is a landing page for the portfolio. It provides a first glimpse at a candidate. The mission statement provides a look at the candidate's personality and what they hope to provide to a future employer. There is an education summary section which links to the education institution's website and documents the degree  obtained and graduation date. The awards and recognition section provides a quick list highlighting past employer recognition.
+![image](https://user-images.githubusercontent.com/23039742/129377856-e553e2cb-7e6e-4fc4-bead-5d2c124ce910.png)
+
+1. <strong>Experience: </strong> This page provides a work history of the candidate as a list of positions. Each section summarizes a position held by the candidate along with the duration and a description of what the candidate did while in that role.
+1. <strong>Skills: </strong>The skills page provides insightful graphical interpretations of the candidate's skill set. It has four sections: Current Job Focus, Front End Skills, Skills Most Recently Used and Past Experience. The unique representation of skills in this manner shows the progression of skills overtime as technology changes.
+1. <strong>Recommendations: </strong>The recommendations page highlights past co-workers praise from all sorts of roles. This section highlights the candidate's ability to present information highlighting their CSS proficiency. 
 1. <strong>Header: </strong>The header provides navigation links and a graphic header to represent what page the user is currently on. It is responsive and has a different presentation
 for small devices to ensure that important information is displayed above the page fold on small devices as well as desktops.
 1. <strong>Footer: </strong>The footer provides consistent quick links to the candidate's email, phone and social media accounts so that recruiters do not have to navigate to contact her.
