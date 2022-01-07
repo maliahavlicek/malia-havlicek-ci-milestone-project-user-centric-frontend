@@ -138,3 +138,8 @@ The photos used in this site were obtained as follows:
 - Small devices navigation was derived from [Mark Caron's post](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793). You can find the navigation styles in my styles.css file.
 - Grid based CSS was inspired from: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/). You can find the grid defined in my styles.css file.
 - CSS reset/breakdown was inpsired from :[Elad Shechter's post]( https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
+
+
+
+
+- background image saved as BlueJeanBackground  - https://wallpapersafari.com/w/V2nSAh
