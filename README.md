@@ -144,5 +144,4 @@ The photos used in this site were obtained as follows:
 
 - background image saved as BlueJeanBackground  - https://wallpapersafari.com/w/V2nSAh
 
-![image](https://user-images.githubusercontent.com/23039742/151892837-54d361b7-b267-4e78-a7ba-41ae59c88d6a.png)
 
