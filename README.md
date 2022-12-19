@@ -32,8 +32,13 @@ From the design stage, the following user stories were created:
 
 ## Features
 This portfolio consists of 4 distinct pages: About Me, Experience, Skills, Recommendations and a header and footer. The pages will be rendered such that they look and function well on mobile phones, tablets and laptops.
+0. Navigation
+Dekstop
+![image](https://user-images.githubusercontent.com/23039742/208329579-f193ced0-8292-4c1d-8036-cf64cd43e8dd.png)
+small devices
+![image](https://user-images.githubusercontent.com/23039742/208329609-e9a6dc80-17c5-497e-b24b-442cdbc6ed06.png)
 
-1. <strong>About Me: </strong>This is a landing page for the portfolio. It provides a first glimpse at a candidate. The mission statement provides a look at the candidate's personality and what they hope to provide to a future employer. There is an education summary section which links to the education institution's website and documents the degree  obtained and graduation date. The awards and recognition section provides a quick list highlighting past employer recognition.
+2. <strong>About Me: </strong>This is a landing page for the portfolio. It provides a first glimpse at a candidate. The mission statement provides a look at the candidate's personality and what they hope to provide to a future employer. There is an education summary section which links to the education institution's website and documents the degree  obtained and graduation date. The awards and recognition section provides a quick list highlighting past employer recognition.
 
 ![image](https://user-images.githubusercontent.com/23039742/129377856-e553e2cb-7e6e-4fc4-bead-5d2c124ce910.png)
 
