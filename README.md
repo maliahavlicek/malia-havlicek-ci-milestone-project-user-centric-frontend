@@ -1,4 +1,7 @@
 ## Personal Portfolio Milestone Project 1
+
+![image](https://github.com/maliahavlicek/malia-havlicek-ci-milestone-project-user-centric-frontend/assets/23039742/986d6e46-8ed4-469e-8a59-edc27cc0565f)
+
 This website is for recruiters and future employers to browse the work history, professional goals, and skills of a future employee, Malia Havlicek in the role of a full stack web developer. It was designed to present a resume to recruiters as an intuitive website both on mobile devices and desktops. 
 
 The home page provides future employers with a brief overview of my beliefs concerning software development. They can read up on my education, browse
